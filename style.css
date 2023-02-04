@@ -1,0 +1,240 @@
+
+
+body{
+	background-color: black;
+	color: black;
+	background-size: black;
+	text-shadow: 500px;
+}
+
+
+.cuadrado {
+	width: 200px;
+	height: 200px;
+	position: relative;
+	color: white;
+
+
+}
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
+.contact-form {
+	font-size: 30px;
+
+}
+.contact-form__h2 {
+	font-size: 1em;
+}
+.Titulo1 {
+	width: 150;
+	color: white;
+	position: fixed;
+	top: 20px;
+	right: 850px;
+	border-radius: 50%;
+	color: white;
+
+
+}
+.logo { 
+	height: 300px;
+	color: white;
+	position: fixed;
+	top: 100px;
+	right: 850px;
+
+}
+.turnos {
+	position: absolute;
+	left: 23%;
+	top: 45%;
+	font-weight: bolder;
+	color: white;
+	border: 1px;
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 20px;
+	padding-left: 20px;
+}
+.form-control{
+	position: absolute;
+	left: 43%;
+	top: 70%;
+	font-weight: bolder;
+}
+.emailtext{
+	position: absolute;
+	left: 43%;
+	top: 65%;
+	font-weight: bolder;
+	color: white;
+	border: 50px;
+}
+.parrafo1 {
+	width: 300px;
+	font-size: 0.8vw;
+	color: white;
+}
+.textotusdatos {
+	color: white;
+	position: absolute;
+	left: 23%;
+	top: 65%;
+	color: white;
+border: 2px;
+	border-style: solid;
+	border-width: 5px;
+	border-radius: 20px;
+}
+.titulotusdatos {
+	color: white;
+	position: absolute;
+	left: 23%;
+	top: 55.7%;
+	color: white;
+}
+.titulodni { 
+	color: white;
+	position: absolute;
+	left: 23%;
+	top: 58%;
+	color: white;
+	font-size: 17px;
+}
+.entradadni{
+	color: white;
+	position: absolute;
+	left: 23%;
+	top: 59.5%;
+	color: black;
+}
+.titulolugardeltatuaje{
+	color: white;
+	position: absolute;
+	left: 23%;
+	top: 65%;
+}
+.desplegablelugardeltatuajer{
+	color: white;
+	position: absolute;
+	left: 23%;
+	top: 67%;
+}
+.titulotatuador {
+	color: white;
+	position: absolute;
+	left: 23%;
+	top: 71%;
+}
+.desplegabletatuador {
+	color: white;
+	position: absolute;
+	left: 23%;
+	top: 73%;
+}
+.titulofecha {
+	color: white;
+	position: absolute;
+	left: 43%;
+	top: 71%;
+}
+.desplegablefecha {
+	color: white;
+	position: absolute;
+	left: 43%;
+	top: 74%;
+ }
+.titulohora {
+	color: white;
+	position: absolute;
+	left: 58%;
+	top: 71%;
+}
+.desplegablehora{
+	position: absolute;
+	left: 58%;
+	top: 75%;
+	color: white;
+
+	}
+.tituloabonar {
+	color: white;
+	position: absolute;
+	left: 23%;
+	top: 79%;
+}
+.desplegableabonar {
+	color: white;
+	position: absolute;
+	left: 23%;
+	top: 81%;
+	color: white;
+	}
+	.titulocomprobante {
+		color: white;
+		position: absolute;
+		left: 43%;
+		top: 79%;
+	}
+	.desplegablecomprobante {
+		color: white;
+		position: absolute;
+		left: 43%;
+		top: 81%;
+		color: black;
+
+		}
+.tituloaclaraciones {
+	color: white;
+	position: absolute;
+	left: 23%;
+	top: 87%;
+	border: 1px;
+	border-style: solid;
+	border-width: 5px;
+	border-radius: 15px;
+	padding-left: 10px;
+}
+	.btn-btn-primery{
+	font-style: bla;
+	color: orange;
+	position: absolute;
+	left: 50%;
+	top: 105%;
+	border: 2px;
+	border-style: solid;
+	border-width: 5px;
+	border-radius: 20px;
+}
+div{
+	font-size: color black;
+}
+.nombretexto{
+	color: white;
+	position: absolute;
+	left: 43%;
+	top: 58%;
+	color: white;
+	font-size: 17px;
+}
+.apellidotexto{
+	color: white;
+	position: absolute;
+	left: 58%;
+	top: 58%;
+	color: white;
+	font-size: 17px;}
+.entradanombre{
+		color: white;
+		position: absolute;
+		left: 43%;
+		top: 59.5%;
+		color: black;}
+.entradaapellido{
+			color: white;
+			position: absolute;
+			left: 58%;
+			top: 59.5%;
+			color: black;}

@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Prometeo TATTO</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div>
+	<img class="logo"src="logo.png" alt="">
+	<h2 class="Titulo1">Prometeo Tatto</h2>
+	<h2 class="turnos">Turnos 
+		<p class="parrafo1">Completar el siguiente formulario para agendar un turno.</p>
+	</h3>
+	<p Completa el siguiente formulario para reservar un turno></p>
+	<div class="col-6">
+
+		<label for="emailInput" class="form-label"></label>email</label>
+		<input type="email" class="form-control" id="emailInput" placeholder="Escribe tu email"
+
+	></div>
+	<h3 class="emailtext">Escribe tu email</h3>
+	<h3 class="titulotusdatos">Tus datos  </h3>
+	<h3 class="titulodni">DNI  </h3>
+	<h4 class="entradadni"><input type="int"></h4>
+	<h3 class="titulolugardeltatuaje">Lugar del tatuaje </h3>
+	<h4 class="desplegablelugardeltatuajer">
+		<select name="menu2" id="1">
+			<div>
+			<option value="1"> Rostro 
+				<option value="2">Cuello</option>
+				<option value="6">Pecho</option>
+				<option value="3">Abdomen</option>
+				<option value="3">Espalda</option>
+				<option value="3">Hombro</option>
+				<option value="3">Brazo</option>
+				<option value="3">Pierna</option>
+			</div>
+			</option>
+		</select>
+	</h4>
+	<h3 class="titulotatuador">Tatuador </h3>
+		<h4 class="desplegabletatuador">
+			<select name="menu" id="1">
+				<option value="1"> Carlos Silva
+					<option value="2">Joni Carabajal</option>
+				</option>
+			</select>
+		</h4>
+		<h3 class="nombretexto"> Nombre</h3>
+		<h4 class="entradanombre"><input type="int"></h4>
+
+		<h3 class="apellidotexto"> Apellido</h3>
+		<h4 class="entradaapellido"><input type="int"></h4>
+	<h3 class="titulofecha">Fecha</h3>
+		<h4 class="desplegablefecha"><input type="date"></h4>
+	<h3 class="titulohora">Hora </h3>
+		<h4 class="desplegablehora"><input type="time"></h4>
+	<h3 class="tituloabonar">Valor de seña</h3>
+		<h4 class="desplegableabonar"><input type="multiple"></h4>
+		<button type="input" class="btn-btn-primery"> Agendar</button>
+	<h3 class="titulocomprobante">Adjuntar comprobante de transferencia</h3>
+		<h4 class="desplegablecomprobante"><input type="multiple"></h4>
+		<h4 class="tituloaclaraciones">Aclaraciones
+			<p class="parrafoaclaraciones">* No concurrir al turno sin previo aviso (al menos 5hs antes) conlleva a la pérdida de la seña y posterior pago completo para requerir otro turno.</p>
+				<p class="parrafoaclaraciones2">
+					* Menores de 16 años deben concurrir con al menos uno de sus padres o tutor 
+				</p>
+		</h4>
+		<script>
+			// Example starter JavaScript for disabling form submissions if there are invalid fields
+			(function() {
+			'use strict'
+		
+			// Fetch all the forms we want to apply custom Bootstrap validation styles to
+			var forms = document.querySelectorAll('.needs-validation')
+		
+			// Loop over them and prevent submission
+			Array.prototype.slice.call(forms)
+			.forEach(function(form){
+			form.addEventListener('submit', function (event) {
+				if (!form.checkValidity()) {
+				event.preventDefault()
+				event.stopPropagation()
+				}
+		
+				form.classList.add('was-validated')
+			}, false)
+			})
+		})()
+		</script>
+</div>
+<script src="./index.js"></script>
+</body>
+</html>
+
