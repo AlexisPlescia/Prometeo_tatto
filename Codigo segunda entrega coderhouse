@@ -1,0 +1,76 @@
+const turnos = [
+    {   
+        id: 1,
+        dia: 'Lunes',
+        horario: '10:00 am',
+    },
+    {
+        id: 2,
+        dia: 'Martes',
+        horario: '12:00 pm',
+    },
+    {
+        id: 3,
+        dia: 'Miercoles',
+        horario: '14:00 pm',
+    },
+    {
+        id: 4,
+        dia: 'Jueves',
+        horario: '16:00 pm',
+    },
+    {
+        id: 5,
+        dia: 'Viernes',
+        horario: '18:00 pm',
+    },
+]
+
+alert("Bienvenido a Prometeo tatto");
+// -------------> LLAMADO A FUNCION PARA VALIDAR CORREO EMAIL <---------------
+validarCorreo();
+
+
+
+let nombre = prompt("ingrese su nombre y apellido");
+
+validarNumero();
+
+let todoslosturnos = turnos.map((turno) => "* OPCION " + turno.id + ": " + turno.dia + " - " + turno.horario +  "  \n" );
+let opcionSeleccionada = parseInt(prompt('Seleccione un turno \n \n' + todoslosturnos));
+turnoSeleccionado(opcionSeleccionada);
+function turnoSeleccionado(opcionSeleccionada) {
+    let turnoFinal = turnos.find(turno => { return turno.id === opcionSeleccionada });
+
+    alert("Información del TURNO RESERVADO: \n" + "DIA: " + turnoFinal.dia + "\nHORARIO: " + turnoFinal.horario + "\nCOSTO DE SEÑA: $1000 \nLe llegará un mail con la factura de la compra");
+}
+
+//----------------> FUNCION VALIDAR CORREO ELECTRONICO < -------------------
+function validarCorreo(){
+    let correo = prompt("ingrese su correo electronico");
+    if(!correo.includes("@")){
+      alert("El correo electronico no es valido");
+      for(let i=0;i = correo ; i ++){
+        correo = prompt ("ingrese el correo nuevamente");
+        if(correo.includes("@")){
+            return 0;
+        }
+      }}else{
+        alert("El correo es valido")
+      };
+    };
+
+function validarNumero(){
+    let number = parseInt(prompt("ingrese su numero de telefono"));
+    if (number != isNaN){
+        alert("Numero guardado");
+    }
+    else{   
+        if(!number.includes(String)){
+            for(let i = 0 ; i = number ; i ++){
+             number = prompt ("Solo se permiten numeros en este campo\n ingrese su numero nuevamente");
+            }}
+    }
+ };
+
+        
